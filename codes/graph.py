@@ -5,7 +5,7 @@ def geometric_progression(n, first_term, common_ratio):
     return terms
 
 # Parameters
-n_terms = 8  # Number of terms in the progression (changed to 7)
+n_terms = 10  # Number of terms in the progression
 first_term = -3
 common_ratio = -3
 
@@ -19,4 +19,4 @@ plt.xlabel('Term')
 plt.ylabel('Value')
 plt.grid(True)
 plt.show()
-plt.savefig
+
