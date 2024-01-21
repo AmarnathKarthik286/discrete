@@ -1,22 +1,26 @@
 import matplotlib.pyplot as plt
 
-def geometric_progression(n, first_term, common_ratio):
-    terms = [first_term * (common_ratio ** i) for i in range(n)]
+# Function to generate the terms of the geometric progression
+def geometric_progression(first_term, common_ratio, num_terms):
+    terms = [first_term * common_ratio**i for i in range(num_terms)]
     return terms
 
-# Parameters
-n_terms = 10  # Number of terms in the progression
+# Parameters for the geometric progression
 first_term = -3
 common_ratio = -3
+num_terms = 8
 
-# Generate terms
-terms = geometric_progression(n_terms, first_term, common_ratio)
+# Generate the terms
+terms = geometric_progression(first_term, common_ratio, num_terms)
 
-# Plotting
-plt.plot(range(1, n_terms + 1), terms, marker='o', linestyle='-', color='b')
-plt.title('Geometric Progression: First Term = -3, Common Ratio = -3')
-plt.xlabel('Term')
-plt.ylabel('Value')
-plt.grid(True)
+# Create a stem plot
+plt.stem(range(num_terms), terms, basefmt='b-', linefmt='r-', markerfmt='ro')
+
+# Set labels and title
+plt.xlabel('n')
+plt.ylabel('x(n) ')
+plt.title('Stem Plot of Geometric Progression')
+# Show the plot
 plt.show()
+plt.savefig("stemplotfinal.jpeg")
 
