@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  21 JAN 2024 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  21 JAN 2024 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,14 +883,17 @@ LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./discrete1.aux)
+) (./discrete1.aux
+
+LaTeX Warning: Label `tab:1' multiply defined.
+
+)
 \openout1 = `discrete1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 12.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 12.
@@ -1043,32 +1046,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
 )
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56   \caption
-               {A Table with input parameters}
-? 
 ! Too many }'s.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.58 \end{table}
+l.57 \end{table}
                 
 ? 
 ! Extra \endgroup.
 \color@endgroup ->\endgraf \endgroup 
                                      
-l.58 \end{table}
+l.57 \end{table}
                 
 ? 
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.58 \end{table}
+l.57 \end{table}
                 
 ? 
 
@@ -1078,13 +1071,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \end{table}
+l.57 \end{table}
                 
 ? 
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.58 \end{table}
+l.57 \end{table}
                 
 ? 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1093,13 +1086,13 @@ l.58 \end{table}
  <./stemplotfinal.jpeg>]
 (./discrete1.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  21194 strings out of 478287
  448681 string characters out of 5849290
- 703447 words of memory out of 5000000
+ 703486 words of memory out of 5000000
  38894 multiletter control sequences out of 15000+600000
  635116 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1118,7 +1111,7 @@ ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmsy8.pfb>
-Output written on discrete1.pdf (1 page, 246815 bytes).
+Output written on discrete1.pdf (1 page, 246139 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
