@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  22 JAN 2024 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  25 JAN 2024 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1015,26 +1015,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-<stemplotfinal.jpeg, id=4, 642.4pt x 481.8pt>
-File: stemplotfinal.jpeg Graphic file (type jpg)
-<use stemplotfinal.jpeg>
-Package pdftex.def Info: stemplotfinal.jpeg  used on input line 45.
-(pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--49
-
- []
-
 (./tables/inputparameters.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
@@ -1054,22 +1034,32 @@ l.13     -  & x\brak3=(x\brak1)^2 &
                                     -\\
 ? 
 )
+<stemplotfinal.jpeg, id=4, 642.4pt x 481.8pt>
+File: stemplotfinal.jpeg Graphic file (type jpg)
+<use stemplotfinal.jpeg>
+Package pdftex.def Info: stemplotfinal.jpeg  used on input line 53.
+(pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--57
+
+ []
+
 ! Too many }'s.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.53 \end{table}
+l.59 \end{table}
                 
 ? 
 ! Extra \endgroup.
 \color@endgroup ->\endgraf \endgroup 
                                      
-l.53 \end{table}
+l.59 \end{table}
                 
 ? 
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.53 \end{table}
+l.59 \end{table}
                 
 ? 
 
@@ -1079,13 +1069,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{table}
+l.59 \end{table}
                 
 ? 
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.53 \end{table}
+l.59 \end{table}
                 
 ? 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1100,15 +1090,15 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21194 strings out of 478287
  448681 string characters out of 5849290
- 701485 words of memory out of 5000000
+ 704485 words of memory out of 5000000
  38894 multiletter control sequences out of 15000+600000
  635116 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 117i,10n,120p,413b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
+ 117i,11n,120p,413b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips
+/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmc
 sc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.p
@@ -1119,7 +1109,7 @@ ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmsy8.pfb>
-Output written on discrete1.pdf (1 page, 246484 bytes).
+Output written on discrete1.pdf (1 page, 247149 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

@@ -20,17 +20,25 @@
 \bibliographystyle{IEEEtran}
 \textbf{Question:} \\ \\The $4^{th}$ term of a G.P. is square of its second term, and the first term is -3. Determine its $7^{th}$ term, and find the Z transform of the series.\\
 
-\textbf{Solution:} \\ 
+\textbf{Solution:}
+\input{tables/inputparameters}
 \begin{align}
- x(0)r^{3}=(x(0)r^{1})^2=x(0)^2r^2\\
-r=x(0)=-3\\
-(x\brak6)=x(0)r^{6}\\
-x\brak6=\brak{-3}\brak{-3}^6=\brak{-3}^7\\
-x(6)=-2187
+ x\brak0r^{3}&=\brak{x\brak0r^{1}}^2\\
+ &=x\brak0^2r^2
+ \end{align}
+\begin{align}
+r=x\brak0=-3\\
+(\text{general term} )x\brak{n}=x\brak0r^n=\brak{-3}\brak{-3}^n
+\end{align}
+\begin{align}
+x\brak6 & =x(0)r^{6}\\
+& =\brak{-3}\brak{-3}^6\\
+& =\brak{-3}^7\\
+& =-2187\\
+x\brak6=-2187
 \end{align}
   
-Finding Z transform : \\
- 
+Finding Z transform :
 \begin{align}
     X \brak{z} & = \sum_{n=-\infty}^{\infty} x \brak{n}   z^{-n} \\
     & = \sum_{n=-\infty}^{\infty} ar^n  u \brak{n}   z^{-n} \\
@@ -46,8 +54,6 @@ $X(n)=\frac{a}{1-rz^{-1}}= \frac{-3}{1+3z^{-1}}$.\\
         \centering
         \caption{Graph showing first 8 terms of the GP}
     \end{figure} \\
-    
-\input{tables/inputparameters}
 
   \label{tab:1}
 \end{table}
