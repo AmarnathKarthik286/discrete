@@ -22,5 +22,4 @@ plt.ylabel('x(n) ')
 plt.title('Stem Plot of Geometric Progression')
 # Show the plot
 plt.show()
-plt.savefig("stemplotfinal.jpeg")
-
+plt.savefig
