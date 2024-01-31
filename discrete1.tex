@@ -29,26 +29,15 @@
 \end{align}
 general term
 \begin{align}
-x\brak{n}=x\brak0r^n=\brak{-3}\brak{-3}^n
+x\brak{n}=x\brak0r^n=\brak{-3}\brak{-3}^nu\brak{n}
 \end{align}
 The $7^{th}$ term of the sequence will be:
 \begin{align}
 x\brak6 & =x(0)r^{6}\\
-& =\brak{-3}\brak{-3}^6\\
-& =\brak{-3}^7\\
 & =-2187
 \end{align}
-  
-Finding Z transform :
-\begin{align}
-    X \brak{z} & = \sum_{n=-\infty}^{\infty} x \brak{n}   z^{-n} \\
-    & = \sum_{n=-\infty}^{\infty} ar^n  u \brak{n}   z^{-n} \\
-    & = \sum_{n=0}^{\infty} ar^n  z^{-n} \\
-    & = a( 1 + rz^{-1} + r^{2}z^{-2} +...)\\
-    & = \frac{a}{{1 - rz^{-1}}} 
-\end{align}
-\hspace{3cm}\cbrak{ROC:|rz^{-1}|<1} \\
-$X(n)=\frac{a}{1-rz^{-1}}= \frac{-3}{1+3z^{-1}}$.\\
+Z transform of the given G.P is:
+$X(z)=\frac{a}{1-rz^{-1}}= \frac{-3}{1+3z^{-1}}$.\hspace{0.5cm} \cbrak{ROC:|rz^{-1}|<1}\\
 \bigskip
 \begin{figure}[ht]
         \centering
