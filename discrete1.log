@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  31 JAN 2024 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  2 FEB 2024 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1006,47 +1006,55 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
 (./tables/inputparameters.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13     x\brak3 & fourth term & \sbrak{x\brak1}^
+                                                 2\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14     \hline
+               
+? 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
 <stemplotfinal.jpeg, id=4, 642.4pt x 481.8pt>
 File: stemplotfinal.jpeg Graphic file (type jpg)
 <use stemplotfinal.jpeg>
-Package pdftex.def Info: stemplotfinal.jpeg  used on input line 46.
+Package pdftex.def Info: stemplotfinal.jpeg  used on input line 47.
 (pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
-\OT1/lmr/m/n/12 Z trans-form of the given G.P is:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 43--51
 
  []
 
 ! Too many }'s.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.52 \end{table}
+l.53 \end{table}
                 
 ? 
 ! Extra \endgroup.
 \color@endgroup ->\endgraf \endgroup 
                                      
-l.52 \end{table}
+l.53 \end{table}
                 
 ? 
 ! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.52 \end{table}
+l.53 \end{table}
                 
 ? 
 
@@ -1056,13 +1064,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{table}
+l.53 \end{table}
                 
 ? 
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.52 \end{table}
+l.53 \end{table}
                 
 ? 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1077,7 +1085,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21194 strings out of 478287
  448681 string characters out of 5849290
- 700485 words of memory out of 5000000
+ 701485 words of memory out of 5000000
  38894 multiletter control sequences out of 15000+600000
  635116 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1094,12 +1102,11 @@ pe1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy8.pfb>
-Output written on discrete1.pdf (1 page, 245986 bytes).
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on discrete1.pdf (1 page, 240454 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
