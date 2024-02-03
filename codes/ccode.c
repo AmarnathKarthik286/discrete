@@ -18,7 +18,7 @@ int main() {
         printf("Error opening file.\n");
         return 1;
     }
-     double n=10; // Number of terms
+     double n=8; // Number of terms
 
     // Geometric progression parameters
    

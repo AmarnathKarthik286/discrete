@@ -8,15 +8,19 @@ with open("coordinates.txt", "r") as file:
 # Separate x and y data
 x_values, y_values = zip(*data)
 
-# Create a stem plot
-plt.stem(x_values, y_values, basefmt="b-", linefmt="r-", markerfmt="ro")
+# Plotting the stem plot
+plt.stem(x_values, y_values, linefmt='b-', markerfmt='bo', basefmt='k-')
+
+# Mark the seventh term with a different color (red)
+seventh_term = 7
+plt.stem(x_values[seventh_term-1], y_values[seventh_term-1], linefmt='r-', markerfmt='ro', basefmt='k-')
 
 # Customize the plot
 plt.title('Stem Plot: Geometric Progression')
 plt.xlabel('Term (n)')
 plt.ylabel('Value')
+plt.grid(True)
 
 # Show the plot
 plt.show()
 
-plt.savefig("pycode.png")
