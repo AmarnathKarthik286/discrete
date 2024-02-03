@@ -6,18 +6,18 @@ def geometric_progression(first_term, common_ratio, n):
     return terms
 
 # Parameters
-first_term = -3
-common_ratio = -3
-n_terms = 8
+x_0 = -3
+r = -3
+n = 8
 
 # Generate geometric progression
-progression = geometric_progression(first_term, common_ratio, n_terms)
+progression = geometric_progression(x_0, r, n)
 
 # Plotting the stem plot
-plt.stem(range(n_terms), progression, linefmt='b-', markerfmt='bo', basefmt='k-')
+plt.stem(range(n), progression, linefmt='b-', markerfmt='bo', basefmt='k-')
 
 # Marking the seventh term with a different color
-plt.stem(n_terms - 2, progression[-2], linefmt='r-', markerfmt='ro', basefmt='k-')
+plt.stem(n - 2, progression[-2], linefmt='r-', markerfmt='ro', basefmt='k-')
 
 # Adding labels and title
 plt.xlabel('n')
